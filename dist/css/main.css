@@ -95,8 +95,8 @@ body {
   .radius {
     border-radius: 0 1rem 1rem 0;
   }
-  .big-font {
-    font-size: 3rem;
+  .text-center {
+    text-align: left;
   }
   .main {
     display: -webkit-box;
@@ -119,9 +119,6 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .main__info--text {
-    text-align: left;
-  }
   .main__info--text-title {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -135,6 +132,9 @@ body {
   }
   .main__info--stats-component-number {
     font-size: 2rem;
+  }
+  .footer {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
